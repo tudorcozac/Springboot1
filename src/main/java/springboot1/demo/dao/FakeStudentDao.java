@@ -13,9 +13,8 @@ import java.util.Map;
 @Qualifier ("FakeDao")
 public class FakeStudentDao implements StudentDao {
     @Autowired
-    // just a cooment for coommit
-    private static int test;
 
+    private static int test;
     private static Map<Integer, Student> students;
 
     static {
