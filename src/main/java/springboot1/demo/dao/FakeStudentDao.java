@@ -14,7 +14,7 @@ import java.util.Map;
 public class FakeStudentDao implements StudentDao {
     @Autowired
 
-    private static int test;
+
     private static Map<Integer, Student> students;
 
     static {
